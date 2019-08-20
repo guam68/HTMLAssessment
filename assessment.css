@@ -1,0 +1,52 @@
+h2, h3, h4, h5 {
+    color: darkblue;
+    font-family: sans-serif;
+}
+
+table {
+    border: solid black 1px;
+}
+
+thead {
+    font-weight: bold;
+    color: red;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: darkgray;
+}
+
+blockquote {
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+a[href="http://www.denverbroncos.com/"] + ul {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+a[href="http://www.chicagobears.com/"] + ul {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+img {
+    visibility: hidden;
+}
+
+#checkbox-grid {
+    list-style-type: none;
+}
